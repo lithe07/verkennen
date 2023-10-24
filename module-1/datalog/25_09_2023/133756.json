@@ -1,0 +1,18 @@
+{
+    "query": "select * from teachers where code = 'RVP'",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 1,
+            "firstName": "Rudi",
+            "lastName": "Pelt",
+            "infix": "van",
+            "code": "RVP",
+            "phone": "0648177313",
+            "email": "rvanpelt@davinci.nl",
+            "primaryCourse": 4,
+            "secondaryCourse": 3,
+            "primaryLocation": "LPP"
+        }
+    ]
+}

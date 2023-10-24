@@ -1,0 +1,14 @@
+select * from city
+; #13:41:23@rubyquest.db
+select * from region
+; #13:41:38@rubyquest.db
+select * from city
+
+; #13:46:58@rubyquest.db
+select * from region
+
+; #13:47:19@rubyquest.db
+select * from region , city
+; #13:50:49@rubyquest.db
+select * from region , city
+; #13:50:50@rubyquest.db

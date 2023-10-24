@@ -1,0 +1,207 @@
+select count(*) as aantalsteden
+from city
+where region = "Breach"; #09:15:34@rubyquest.db
+select count(*) as aantalsteden
+from city
+where region = "Breach"; #09:15:52@rubyquest.db
+select count(id) as aantalsteden
+from city
+where region = "Breach"; #09:16:56@rubyquest.db
+select id as aantalsteden
+from city
+where region = "Breach"; #09:17:06@rubyquest.db
+select id as aantalsteden
+from city
+where region = "Breach"; #09:17:07@rubyquest.db
+select count(*) as Aantalsteden
+from city
+where region = 5; #09:19:33@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+INNER JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:29:43@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:31@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:32@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:32@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:32@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:32@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:33@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:33@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:33@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:33@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:46@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:46@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:47@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:47@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:47@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:47@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:47@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:48@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:48@rubyquest.db
+SELECT COUNT(city.id) as aantal_steden
+FROM city
+JOIN region ON city.region = region.id
+WHERE region.id = 5;
+
+ ; #09:30:48@rubyquest.db
+select *
+from weapon; #09:32:42@rubyquest.db
+select *
+from weapon; #09:33:10@rubyquest.db
+select *
+from weapon; #09:33:11@rubyquest.db
+select * from weapon; #09:35:52@rubyquest.db
+select * from hero; #09:36:12@rubyquest.db
+create table product (
+id INTEGER PRIMARY KEY,
+naam varchar(25),
+soort integer,
+prijs real,
+prijs_10 real,
+allergenen varchar(50)
+); #09:50:44@oliebollenkraam.db
+select * from product; #09:54:22@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10, allergenen)
+VALUES ('Oliebollen', 2, 1.5, 13.0, 'Gluten, Eggs'); #09:59:46@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10, allergenen)
+VALUES ('Oliebollen', 2, 1.5, 13.0, 'Gluten, Eggs'); #10:01:08@oliebollenkraam.db
+select * from product; #10:02:23@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10, allergenen)
+VALUES ('Oliebollen', 2, 1.5, 13.0, 'Gluten, Eggs')
+; #10:02:48@oliebollenkraam.db
+select * from product; #10:03:05@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10, allergenen)
+VALUES ('Oliebollen', 2, 1.5, 13.0, 'Gluten, Eggs')
+; #10:03:22@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10, allergenen)
+VALUES ('Oliebollen', 2, 1.5, 13.0, 'Gluten, Eggs')
+; #10:03:23@oliebollenkraam.db
+select * from product; #10:03:39@oliebollenkraam.db
+select * from product; #10:03:50@oliebollenkraam.db
+select * from product; #10:03:51@oliebollenkraam.db
+select * from product; #10:03:51@oliebollenkraam.db
+select * from product; #10:03:51@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10,  allergenen)
+VALUES ('Oliebollen',  2, 1.5, 13.0, 'Gluten, Eggs')
+; #10:04:14@oliebollenkraam.db
+select * from product; #10:04:36@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10 , allergenen)
+VALUES ('Oliebollen' , 2, 1.5, 13.0, 'Gluten, Eggs')
+; #10:05:01@oliebollenkraam.db
+select * from product; #10:05:21@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10 , allergenen)
+VALUES ('Oliebollen' , 2 , 1.5, 13.0, 'Gluten, Eggs')
+
+; #10:06:29@oliebollenkraam.db
+select * from product; #10:06:52@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10 , allergenen)
+VALUES ('Appelflap', 3, 0.75, 7.5, 'Gluten, Eggs')
+
+
+; #10:09:31@oliebollenkraam.db
+select * from product ; #10:09:51@oliebollenkraam.db
+delete from product; #10:10:16@oliebollenkraam.db
+select * from product; #10:10:26@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10 , allergenen)
+VALUES ('Oliebollen' , 2 , 1.5, 13.0, 'Gluten, Eggs')
+
+
+; #10:10:48@oliebollenkraam.db
+INSERT INTO product (naam, soort, prijs, prijs_10 , allergenen)
+VALUES ('Appelflap' , 3 , 0.75, 7.50, 'Gluten, Eggs')
+
+
+; #10:11:44@oliebollenkraam.db
+select * from product; #10:11:55@oliebollenkraam.db

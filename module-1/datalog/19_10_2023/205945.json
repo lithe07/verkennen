@@ -1,0 +1,5 @@
+{
+    "query": "SELECT name\nFROM city\nwhere id in(select id from region where name = 'North Groval' and name = 'South Groval')",
+    "resultcount": 0,
+    "result": []
+}

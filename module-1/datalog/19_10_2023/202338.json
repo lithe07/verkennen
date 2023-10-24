@@ -1,0 +1,5 @@
+{
+    "query": "select name\nfrom region\nwhere id = 11 and 15",
+    "resultcount": 0,
+    "result": []
+}

@@ -1,0 +1,12 @@
+{
+    "query": "SELECT name\nFROM city\nwhere id in(select holder from region where name = 'North Groval' or name = 'South Groval')",
+    "resultcount": 2,
+    "result": [
+        {
+            "name": "Nordberg"
+        },
+        {
+            "name": "Unterdages"
+        }
+    ]
+}

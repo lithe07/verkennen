@@ -1,0 +1,9 @@
+{
+    "query": "select speed from animal order by speed limit 1",
+    "resultcount": 1,
+    "result": [
+        {
+            "speed": 3
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "query": "select lastname from teachers",
+    "resultcount": 6,
+    "result": [
+        {
+            "lastName": "Pelt"
+        },
+        {
+            "lastName": "Corbijn"
+        },
+        {
+            "lastName": "Slemmer"
+        },
+        {
+            "lastName": "Bouman"
+        },
+        {
+            "lastName": "Oorschot"
+        },
+        {
+            "lastName": "Kamberg"
+        }
+    ]
+}

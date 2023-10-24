@@ -1,0 +1,136 @@
+select * from courses where has_exame =1; #09:40:39@dvc-sd.db
+select * from courses where has_exame and is_avo; #09:40:53@dvc-sd.db
+select * from courses where has_exame; #09:47:02@dvc-sd.db
+select * from courses where  has_exame; #09:47:40@dvc-sd.db
+select * from courses where  has_exame ; #09:48:00@dvc-sd.db
+select * from courses where has_exame; #09:48:49@dvc-sd.db
+select * from courses where  ("Nederlands"); #09:51:58@dvc-sd.db
+select * from courses where  ("Nederlands and Engels"); #09:52:09@dvc-sd.db
+select * from courses where ("Nederlands and Engels"); #09:52:22@dvc-sd.db
+select * from courses where name in ("Rekenen", "Engels"); #09:54:35@dvc-sd.db
+select * from courses where name = ("Killer Bee" or "Orc"); #10:03:59@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:14@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:14@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:15@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:16@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:16@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:16@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:16@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:16@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:17@dvc-sd.db
+select * from courses where ("Killer Bee" or "Orc"); #10:04:17@dvc-sd.db
+select * from creature where ("Killer Bee" or "Orc"); #10:04:42@rubyquest.db
+select * from creature where name = ("Killer Bee" or "Orc"); #10:04:56@rubyquest.db
+select * from creature where name = ("Killer Bee" Or "Orc"); #10:05:08@rubyquest.db
+select * from creature where name = ("Killer Bee" or "Orc"); #10:05:16@rubyquest.db
+select * from creature where name =  "Killer Bee" or "Orc"; #10:05:54@rubyquest.db
+select * from creature where name =  "Killer Bee" and "Orc"; #10:06:03@rubyquest.db
+select * from creature where name =  "Killer Bee"  ; #10:06:12@rubyquest.db
+select * from creature where name =  "Orc"  ; #10:06:27@rubyquest.db
+select * from creature where name =  "Orc" and "Killer Bee" ; #10:06:52@rubyquest.db
+select * from creature where name =  "Orc" ; #10:07:26@rubyquest.db
+select * from creature where name =  "Orc" or name = "Killer Bee"; #10:08:06@rubyquest.db
+select * from animal ; #10:09:11@rubyquest.db
+select * from animal speed ; #10:09:37@rubyquest.db
+select * from animal order by  speed; #10:10:38@rubyquest.db
+select * from animal where speed = 6 ; #10:12:18@rubyquest.db
+select * from animal where speed = 6 ; #10:12:18@rubyquest.db
+select * from animal where speed = 6 and defense = 5; #10:12:35@rubyquest.db
+select * from animal where type = ("Wolf"  and "Bear" and "Eagle"); #10:14:03@rubyquest.db
+select * from animal where type = "Wolf"  and "Bear" and "Eagle"; #10:14:15@rubyquest.db
+select * from animal where type = "Wolf"  and "Bear" and "Eagle"; #10:14:16@rubyquest.db
+select * from animal where type = "Wolf"  and "Bear" and "Eagle"; #10:14:16@rubyquest.db
+select * from animal where type = "Wolf"  and "Bear" and "Eagle"; #10:14:16@rubyquest.db
+select * from animal where type = "Wolf"  and "Bear" and "Eagle"; #10:14:16@rubyquest.db
+select * from animal where type = "Wolf"  and "Bear"  ; #10:14:25@rubyquest.db
+select * from animal where type = "Wolf"    ; #10:14:29@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:44@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:45@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:46@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:46@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:46@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:46@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear"  ; #10:14:46@rubyquest.db
+select * from animal where type = "Wolf"  or "Bear" and "Eagle"  ; #10:15:00@rubyquest.db
+select * from animal where type = "Wolf"  or  type = "Bear"  ; #10:15:19@rubyquest.db
+select * from animal where type = "Wolf"  or  type = "Bear" or type = "Eagle"  ; #10:15:40@rubyquest.db
+select * from animal where type = "Wolf"  or  type = "Bear" or type = "Eagle"  ; #10:15:40@rubyquest.db
+select * from animal order by speed desc limit 1; #10:17:56@rubyquest.db
+select * from person where attack = 10 and defense = 10 and agility = 10; #10:19:45@rubyquest.db
+select * from hero where intelligence not in (30, 90); #10:21:24@rubyquest.db
+select * from weapon where price; #11:05:59@rubyquest.db
+select * from weapon where price >= 100 and price <= 1000; #11:06:49@rubyquest.db
+select * from weapon where attack >= 300 and attack <= 600; #11:08:22@rubyquest.db
+select * from animal where defense >= 7 and defense <= 9; #11:09:03@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:45@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:47@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:47@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:47@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:47@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:47@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:48@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:48@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:48@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:48@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:48@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:50@rubyquest.db
+select * from animal where defense between 7 and 9; #11:09:50@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:10:01@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:15@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:16@rubyquest.db
+select count(*) from animal where defense between 7 and 9; #11:11:16@rubyquest.db
+select * from animal where defense between 7 and 9; #11:11:33@rubyquest.db
+select * from person ; #11:17:10@rubyquest.db
+select * from person name; #11:18:20@rubyquest.db
+select * from person ; #11:19:51@rubyquest.db
+select * from person order by  ("B%"); #11:20:56@rubyquest.db
+select * from person order by name ; #11:21:36@rubyquest.db
+select * from person order by name asc ; #11:22:12@rubyquest.db
+select * from person where name like "B%"; #11:24:59@rubyquest.db
+select * from animal where type  like "%a"; #11:29:17@rubyquest.db
+select * from animal where type like "%a"; #11:29:57@rubyquest.db
+select * from animal where type  like "%a%"; #11:30:14@rubyquest.db
+select * from animal where type  like "%A%"; #11:30:20@rubyquest.db
+select * from animal where type  like "%a%"; #11:30:35@rubyquest.db
+select * from animal where type  like "%ea%"; #11:31:20@rubyquest.db
+select * from animal where type  like "%ae%"; #11:31:46@rubyquest.db
+select * from animal where type  like "%e%"; #11:31:51@rubyquest.db
+select * from animal where type  like "%_e%"; #11:31:56@rubyquest.db
+select * from animal where type  like "%_e%"; #11:31:58@rubyquest.db
+select * from animal where type  like "_e%"; #11:32:01@rubyquest.db
+select * from animal where type  like "_ae%"; #11:32:19@rubyquest.db
+select * from animal where type  like "ae%"; #11:32:22@rubyquest.db
+select * from animal where type  like "Ae%"; #11:32:26@rubyquest.db
+select * from animal where type  like "e%"; #11:32:28@rubyquest.db
+select * from animal where type  like "%ea%"; #11:33:57@rubyquest.db
+select * from animal where type  like "%ae%"; #11:34:09@rubyquest.db
+select * from animal where type  like "%ae"; #11:34:12@rubyquest.db
+select * from animal where type  like "ae"; #11:34:16@rubyquest.db
+select * from animal where type  like "ae%"; #11:34:23@rubyquest.db
+select * from animal where type  like "ae%"; #11:34:23@rubyquest.db
+select * from animal where type  like "ae%"; #11:34:23@rubyquest.db
+select * from animal where type  like "ae%"; #11:34:24@rubyquest.db
+select * from animal where type  like "%a%e%"; #11:34:54@rubyquest.db
+select * from animal where type  like "%e%a%"; #11:35:10@rubyquest.db
+select * from animal where type  like "%ae%"; #11:35:48@rubyquest.db
+select * from animal where type  like "%a%e%"; #11:35:54@rubyquest.db
+select * from animal where type  like "%ea%"; #11:36:30@rubyquest.db
+select * from animal where type  like "%e%a%"; #11:42:46@rubyquest.db
+select * from animal where type  like "%a%"; #11:43:01@rubyquest.db
+select * from animal where type  like "%ae%"; #11:43:06@rubyquest.db
+select * from animal where type  like "%e%" and type like "%a%"; #11:44:18@rubyquest.db
+select * from weapon ; #11:46:06@rubyquest.db
+select * from weapon where name like "_d"; #11:46:28@rubyquest.db
+select * from weapon where name like "%d"; #11:46:35@rubyquest.db

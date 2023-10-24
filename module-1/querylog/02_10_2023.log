@@ -1,0 +1,132 @@
+select min(id) from courses where id in(6,7); #11:05:02@dvc-sd.db
+select avg(id) from courses where id in(6,7); #11:05:54@dvc-sd.db
+select avg(id) from courses where id in(6,7); #11:06:19@dvc-sd.db
+select * from npc; #11:17:02@rubyquest.db
+select count(*) as number_npc from npc; #11:20:04@rubyquest.db
+select * from animal; #11:22:54@rubyquest.db
+select count(*) from animal; #11:23:02@rubyquest.db
+select count(*) from animal; #11:23:06@rubyquest.db
+select * from animal; #11:23:12@rubyquest.db
+select count(*) from animal; #11:23:31@rubyquest.db
+select count(*) from animal; #11:23:33@rubyquest.db
+select count(*) from animal; #11:23:34@rubyquest.db
+select count(*) from animal; #11:23:34@rubyquest.db
+select count(*) from animal; #11:23:34@rubyquest.db
+select count(*) from animal; #11:23:34@rubyquest.db
+select count(*) from animal; #11:23:35@rubyquest.db
+select count(*) from animal; #11:23:35@rubyquest.db
+select count(*) from animal; #11:23:35@rubyquest.db
+select count(*) from animal; #11:23:35@rubyquest.db
+select count(*) from animal; #11:24:00@rubyquest.db
+select * from animal; #11:24:22@rubyquest.db
+select count(*) from animal; #11:25:25@rubyquest.db
+select count(*) from animal order by id; #11:27:46@rubyquest.db
+select count(*) from city order by name; #11:29:30@rubyquest.db
+select count(*) from city ; #11:29:38@rubyquest.db
+select count(*) from city ; #11:29:39@rubyquest.db
+select count(*) from city ; #11:29:39@rubyquest.db
+select count(*) from city ; #11:29:39@rubyquest.db
+select count(*) from city ; #11:29:39@rubyquest.db
+select * from city ; #11:29:49@rubyquest.db
+select * from city order by name; #11:30:02@rubyquest.db
+select * from city ; #11:30:12@rubyquest.db
+select count(*) from city ; #11:30:23@rubyquest.db
+select * from animal order by"scheep"; #11:31:45@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:53@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:55@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:55@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:56@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:56@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:56@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:56@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:56@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:57@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:57@rubyquest.db
+select count(*) from animal order by "scheep"; #11:31:57@rubyquest.db
+select count(*) from animal order by type =  "scheep"; #11:32:14@rubyquest.db
+select count(*) from animal; #11:33:41@rubyquest.db
+select * from animal; #11:33:47@rubyquest.db
+select count(*) from animal where type =  "sheep"; #11:34:21@rubyquest.db
+select count(*) from animal where type ; #11:34:46@rubyquest.db
+select * from animal ; #11:34:59@rubyquest.db
+select count("scheep") from animal ; #11:35:18@rubyquest.db
+select count("scheep") from animal ; #11:35:20@rubyquest.db
+select count("scheep") from animal ; #11:35:20@rubyquest.db
+select count("scheep") from animal ; #11:35:20@rubyquest.db
+select count("scheep") from animal ; #11:35:20@rubyquest.db
+select count(*) from animal order by type = "scheep"; #11:35:59@rubyquest.db
+select count(type) from animal  ; #11:36:14@rubyquest.db
+select count(type) from animal  ; #11:36:15@rubyquest.db
+select count(type) from animal  ; #11:36:15@rubyquest.db
+select count(type) from animal  ; #11:36:15@rubyquest.db
+select count(type) from animal  ; #11:36:15@rubyquest.db
+select count(type) from animal  ; #11:36:15@rubyquest.db
+select type from animal  ; #11:36:21@rubyquest.db
+select type from animal where type =  "scheep"; #11:36:45@rubyquest.db
+select type from animal order by "sheep"; #11:37:02@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:45@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:51@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:52@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:52@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:52@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:52@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:52@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:53@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:53@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:53@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:53@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:53@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:54@rubyquest.db
+select count(type) from animal where type = "sheep"; #11:37:54@rubyquest.db
+select count(type) from animal where type = "Sheep"; #11:38:03@rubyquest.db
+select count(type) from animal where type = "Sheep"; #11:38:04@rubyquest.db
+select count(type) from animal where type = "Sheep"; #11:38:04@rubyquest.db
+select count(type) from animal where type = "Sheep"; #11:38:04@rubyquest.db
+select count(type) from animal where type = "Sheep"; #11:38:23@rubyquest.db
+select count(type) from animal where type = "Sea Snake"; #11:41:20@rubyquest.db
+select count(type) from animal where type = "Sea snake"; #11:41:24@rubyquest.db
+select count(type) from animal where type = "Sea Snake"; #11:41:27@rubyquest.db
+select * from animal where speed ; #11:46:27@rubyquest.db
+select speed from animal order by speed limit 1; #11:48:03@rubyquest.db
+select speed from animal order by speed; #11:49:48@rubyquest.db
+select speed from animal order by speed desc; #11:50:23@rubyquest.db
+select max(speed) from animal order by speed ; #11:51:42@rubyquest.db
+select max(speed) from animal; #11:51:52@rubyquest.db
+select max(speed) from animal; #11:51:52@rubyquest.db
+select max(speed) from animal; #11:51:52@rubyquest.db
+select max(speed) from animal; #11:51:53@rubyquest.db
+select max(speed) from animal; #11:51:54@rubyquest.db
+select max(speed) from animal; #11:51:54@rubyquest.db
+select max(speed) from animal; #11:51:54@rubyquest.db
+select max(speed) from animal; #11:51:54@rubyquest.db
+select max(speed) from animal; #11:51:54@rubyquest.db
+select max(speed) from animal; #11:51:55@rubyquest.db
+select max(speed) from animal; #11:51:55@rubyquest.db
+select max(speed) from animal; #11:51:55@rubyquest.db
+select max(speed) from animal; #11:51:55@rubyquest.db
+select max(speed) from animal; #11:51:55@rubyquest.db
+select max(speed) from animal; #11:51:56@rubyquest.db
+select max(speed) from animal; #11:51:56@rubyquest.db
+select max(speed) from animal; #11:51:56@rubyquest.db
+select max(speed) from animal; #11:51:56@rubyquest.db
+select max(speed) from animal; #11:51:56@rubyquest.db
+select max(speed) from animal; #11:51:56@rubyquest.db
+select min(speed) from animal; #11:52:01@rubyquest.db
+select max(speed) from animal; #11:52:05@rubyquest.db
+select min(attack) from weapon; #11:52:59@rubyquest.db
+select * from weapon; #11:53:22@rubyquest.db
+select min(attack) from weapon; #11:53:31@rubyquest.db
+select max(price) from weapon; #11:54:41@rubyquest.db
+select * from weapon; #11:55:10@rubyquest.db
+select * from quest; #11:58:05@rubyquest.db
+select avg(experience) from quest; #11:59:06@rubyquest.db
+select avg(experience) from quest; #11:59:09@rubyquest.db
+select avg(experience) from quest; #11:59:09@rubyquest.db
+select avg(experience) from quest; #11:59:09@rubyquest.db
+select * from quest; #11:59:17@rubyquest.db
+select avg(experience) from quest; #12:00:05@rubyquest.db
+select avg(experience) as gold from quest; #12:01:51@rubyquest.db
+select avg(experience)   from quest; #12:04:23@rubyquest.db
+select avg(gold)  from quest where holder =  0; #12:08:30@rubyquest.db
+select count(*), avg(price), avg(attack) from weapon
+where name like '%word%'; #12:11:28@rubyquest.db

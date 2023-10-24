@@ -1,0 +1,5 @@
+{
+    "query": "select * from quest where id > 3000",
+    "resultcount": 0,
+    "result": []
+}

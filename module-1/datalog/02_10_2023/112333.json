@@ -1,0 +1,9 @@
+{
+    "query": "select count(*) from animal",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(*)": 105
+        }
+    ]
+}

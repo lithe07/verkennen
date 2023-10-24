@@ -1,0 +1,78 @@
+{
+    "query": "select * from product ",
+    "resultcount": 9,
+    "result": [
+        {
+            "id": 1,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 2,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 3,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 4,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 5,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 6,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 7,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 8,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 9,
+            "naam": "Appelflap",
+            "soort": 3,
+            "prijs": 0.75,
+            "prijs_10": 7.5,
+            "allergenen": "Gluten, Eggs"
+        }
+    ]
+}

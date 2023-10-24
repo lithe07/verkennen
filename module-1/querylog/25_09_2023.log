@@ -1,0 +1,43 @@
+select * from teachers; #13:33:41@dvc-sd.db
+select lastname from teachers; #13:34:53@dvc-sd.db
+select firstname from teachers; #13:35:23@dvc-sd.db
+select firstname, lastname from teachers; #13:35:48@dvc-sd.db
+select * from teachers where code = 'RVP'; #13:37:56@dvc-sd.db
+select firstname from teachers where id >3; #13:39:55@dvc-sd.db
+select * from hero 
+; #13:53:11@rubyquest.db
+select * from person
+; #13:54:31@rubyquest.db
+select * from weapon
+
+; #13:57:31@rubyquest.db
+select * from quest
+
+; #13:58:54@rubyquest.db
+select * from person
+
+; #14:00:33@rubyquest.db
+select * from creature
+
+
+; #14:00:55@rubyquest.db
+select * from armor
+
+
+; #14:01:39@rubyquest.db
+SELECT name  FROM weapon
+
+
+; #14:03:28@rubyquest.db
+SELECT *  FROM weapon
+
+
+; #14:04:08@rubyquest.db
+select name,health from creature; #14:09:43@rubyquest.db
+select * from person where id = 7; #14:14:41@rubyquest.db
+select * from city; #14:38:24@rubyquest.db
+select * from city; #14:46:32@rubyquest.db
+select * from city; #14:47:53@rubyquest.db
+select * from city where region = 1; #14:48:26@rubyquest.db
+select * from npc; #14:59:03@rubyquest.db
+select * from animal; #14:59:12@rubyquest.db

@@ -1,0 +1,5 @@
+{
+    "query": "select * from courses where name = (\"Killer Bee\" or \"Orc\")",
+    "resultcount": 0,
+    "result": []
+}

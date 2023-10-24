@@ -1,0 +1,162 @@
+{
+    "query": "SELECT name  FROM weapon\n\n\n",
+    "resultcount": 52,
+    "result": [
+        {
+            "name": "Dirk"
+        },
+        {
+            "name": "Poniard"
+        },
+        {
+            "name": "Rondel"
+        },
+        {
+            "name": "Dagger"
+        },
+        {
+            "name": "Anelace"
+        },
+        {
+            "name": "Baselard"
+        },
+        {
+            "name": "Cinquedea"
+        },
+        {
+            "name": "Stiletto"
+        },
+        {
+            "name": "Machete"
+        },
+        {
+            "name": "Katara"
+        },
+        {
+            "name": "Shortsword"
+        },
+        {
+            "name": "Falchion"
+        },
+        {
+            "name": "Flamberge"
+        },
+        {
+            "name": "Cutlass"
+        },
+        {
+            "name": "Spatha"
+        },
+        {
+            "name": "Rapier"
+        },
+        {
+            "name": "Claymore"
+        },
+        {
+            "name": "Sabre"
+        },
+        {
+            "name": "Broadsword"
+        },
+        {
+            "name": "Scimitar"
+        },
+        {
+            "name": "Katana"
+        },
+        {
+            "name": "Longsword"
+        },
+        {
+            "name": "Quarterstaff"
+        },
+        {
+            "name": "Club"
+        },
+        {
+            "name": "Mace"
+        },
+        {
+            "name": "War Hammer"
+        },
+        {
+            "name": "Flail"
+        },
+        {
+            "name": "Morning Star"
+        },
+        {
+            "name": "Maul"
+        },
+        {
+            "name": "Pike"
+        },
+        {
+            "name": "Pitchfork"
+        },
+        {
+            "name": "Lance"
+        },
+        {
+            "name": "Swordstaff"
+        },
+        {
+            "name": "Glaive"
+        },
+        {
+            "name": "Partisan"
+        },
+        {
+            "name": "Guisarme"
+        },
+        {
+            "name": "scythe"
+        },
+        {
+            "name": "Voulge"
+        },
+        {
+            "name": "ranseur"
+        },
+        {
+            "name": "Halberd"
+        },
+        {
+            "name": "Tomahawk"
+        },
+        {
+            "name": "Ono"
+        },
+        {
+            "name": "Battle Axe"
+        },
+        {
+            "name": "Sling"
+        },
+        {
+            "name": "bow"
+        },
+        {
+            "name": "Longbow"
+        },
+        {
+            "name": "Crossbow"
+        },
+        {
+            "name": "Shell Chain"
+        },
+        {
+            "name": "Soul Sword"
+        },
+        {
+            "name": "Obsidian Staff"
+        },
+        {
+            "name": "Knock-Down Hammer"
+        },
+        {
+            "name": "Axe of Terror"
+        }
+    ]
+}

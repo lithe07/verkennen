@@ -1,0 +1,4 @@
+select count(city.id) as aantal_steden 
+from city
+join region on city.region = region.id 
+where region.id = 5; #22:27:39@rubyquest.db

@@ -1,0 +1,5 @@
+{
+    "query": "select id as aantalsteden\nfrom city\nwhere region = \"Breach\"",
+    "resultcount": 0,
+    "result": []
+}

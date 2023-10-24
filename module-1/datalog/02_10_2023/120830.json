@@ -1,0 +1,9 @@
+{
+    "query": "select avg(gold)  from quest where holder =  0",
+    "resultcount": 1,
+    "result": [
+        {
+            "avg(gold)": 865.2253521126761
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "query": "select * from product",
+    "resultcount": 6,
+    "result": [
+        {
+            "id": 1,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 2,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 3,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 4,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 5,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        },
+        {
+            "id": 6,
+            "naam": "Oliebollen",
+            "soort": 2,
+            "prijs": 1.5,
+            "prijs_10": 13.0,
+            "allergenen": "Gluten, Eggs"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "query": "select max(speed) from animal order by speed ",
+    "resultcount": 1,
+    "result": [
+        {
+            "max(speed)": 10
+        }
+    ]
+}

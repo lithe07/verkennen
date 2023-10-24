@@ -1,0 +1,26 @@
+select * from quest where id > 3000; #09:20:09@rubyquest.db
+select * from quest where experience > 3000; #09:21:11@rubyquest.db
+select * from person where gold < 1800; #09:22:55@rubyquest.db
+select * from person where gold >1800; #09:23:11@rubyquest.db
+select * from person where gold <1850; #09:24:04@rubyquest.db
+select * from person where gold >= 1300; #09:26:00@rubyquest.db
+select * from person where gold = 1300; #09:26:09@rubyquest.db
+select * from person where gold >= 1300; #09:28:26@rubyquest.db
+select * from weapon where price > 300; #09:29:27@rubyquest.db
+select * from weapon where price < 300; #09:29:32@rubyquest.db
+select * from quest where gold > experience; #09:33:31@rubyquest.db
+select * from quest where gold > experience; #09:36:22@rubyquest.db
+select * from animal where  not type = "sheep"; #09:39:50@rubyquest.db
+select * from animal where  not type = "Sheep"; #09:40:31@rubyquest.db
+select * from creature where max_health > health; #09:44:17@rubyquest.db
+select * from person order by name desc; #09:54:04@rubyquest.db
+select * from person order by name asc; #09:54:28@rubyquest.db
+select * from city order by name desc; #09:55:36@rubyquest.db
+select * from city order by name desc; #09:56:28@rubyquest.db
+select * from person where name > 10; #09:58:18@rubyquest.db
+select * from person limit 10; #09:58:50@rubyquest.db
+select * from weapon order by price desc limit 5; #10:02:23@rubyquest.db
+select * from weapon order by attack desc limit 3; #10:05:04@rubyquest.db
+select distinct type from animal; #10:09:15@rubyquest.db
+select distinct * from npc; #10:11:56@rubyquest.db
+select distinct profession from npc; #10:12:08@rubyquest.db

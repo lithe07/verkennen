@@ -1,0 +1,49 @@
+
+Prefolio Someone
+
+Over mij
+
+Mijn naam is Someone Surname. Ik ben 18 jaar en woon in Rotterdam.
+
+
+Waarom gekozen voor Software Developer?
+
+Ik ben een enthousiaste, gedreven student in de opleiding Software Development. Sinds enkele jaren ben ik al bezig met programmeren van mods voor MineCraft en bots voor Discord. Programmeren past helemaal bij mij. Ik doe niets liever dan uitdagende projectjes verzinnen en technische probleempjes oplossen. Mijn ambitie is om me te ontwikkelen tot degelijke allround developer.
+Opleiding
+
+Mijn opleiding heeft me ruim voldoende voorbereid op een oriënterende stage in de praktijk. Ik heb kennisgemaakt met het volgende:
+
+Ontwikkeltalen:
+
+    Python (uitgebreid)
+    HMTL (intro)
+    CSS (intro)
+    JavaScript (intro)
+    SQL (intro)
+    PHP (projecten)
+
+Succesvol afgeronde modules:
+
+Bootcamp: Python syntax, toepassing en werking
+value types, expressions, operators, variables, typecasting, conditional statements, while loops, exception handling, lists, for loops, nesting, function definitions, GIT
+
+Python Programming
+problem analysis, solution design, structured testing, software quality: DRY, SRP
+
+Verzamelen van data
+SQL queries, where clauses, aggragates, joins
+
+Frontend web development - webpages
+HTML, CSS, URL's, Responsive webdesign, Bootstrap
+
+Frontend web development - interactive user interfaces
+JavaScript, HTML forms, DOM manipulation, event handling, callbacks, API consuming
+
+Backend programming
+Routing, controllers, models, database tasks, multi tier. Zelf gekozen taal: PHP
+
+Developer Skills
+Communiceren, samenwerken, analyseren, ontwerpen, plannen, presenteren
+
+Basis ICT
+Intro computers, operating systems, netwerken, client-server, http

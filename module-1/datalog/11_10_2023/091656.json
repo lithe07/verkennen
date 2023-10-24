@@ -1,0 +1,9 @@
+{
+    "query": "select count(id) as aantalsteden\nfrom city\nwhere region = \"Breach\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "aantalsteden": 0
+        }
+    ]
+}

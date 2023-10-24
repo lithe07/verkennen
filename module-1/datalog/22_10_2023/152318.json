@@ -1,0 +1,9 @@
+{
+    "query": "select name \nfrom person\nwhere name = 'Mukovo'\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Mukovo"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "query": "select count(*) as Aantalsteden\nfrom city\nwhere region = 5",
+    "resultcount": 1,
+    "result": [
+        {
+            "Aantalsteden": 7
+        }
+    ]
+}

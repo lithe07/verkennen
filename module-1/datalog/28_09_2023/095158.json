@@ -1,0 +1,5 @@
+{
+    "query": "select * from courses where  (\"Nederlands\")",
+    "resultcount": 0,
+    "result": []
+}

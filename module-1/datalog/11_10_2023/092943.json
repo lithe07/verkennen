@@ -1,0 +1,9 @@
+{
+    "query": "SELECT COUNT(city.id) as aantal_steden\nFROM city\nINNER JOIN region ON city.region = region.id\nWHERE region.id = 5;\n\n ",
+    "resultcount": 1,
+    "result": [
+        {
+            "aantal_steden": 7
+        }
+    ]
+}

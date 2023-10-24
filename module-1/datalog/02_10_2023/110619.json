@@ -1,0 +1,9 @@
+{
+    "query": "select avg(id) from courses where id in(6,7)",
+    "resultcount": 1,
+    "result": [
+        {
+            "avg(id)": 6.5
+        }
+    ]
+}

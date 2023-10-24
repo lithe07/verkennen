@@ -1,0 +1,5 @@
+{
+    "query": "SELECT id\nFROM city\nWHERE region = 'North Groval' OR region = 'South Groval';\n",
+    "resultcount": 0,
+    "result": []
+}

@@ -1,0 +1,5 @@
+{
+    "query": "SELECT type\nFROM animal\nWHERE owner = (SELECT id FROM hero WHERE id = 'Captain America')\n",
+    "resultcount": 0,
+    "result": []
+}

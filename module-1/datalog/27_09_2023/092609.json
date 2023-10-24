@@ -1,0 +1,5 @@
+{
+    "query": "select * from person where gold = 1300",
+    "resultcount": 0,
+    "result": []
+}

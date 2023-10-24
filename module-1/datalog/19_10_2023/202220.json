@@ -1,0 +1,5 @@
+{
+    "query": "select name\nfrom region\nwhere name is 'North Groval' and 'South Groval'",
+    "resultcount": 0,
+    "result": []
+}

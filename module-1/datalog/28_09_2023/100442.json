@@ -1,0 +1,5 @@
+{
+    "query": "select * from creature where (\"Killer Bee\" or \"Orc\")",
+    "resultcount": 0,
+    "result": []
+}

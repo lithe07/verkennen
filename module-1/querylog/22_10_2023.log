@@ -1,0 +1,4 @@
+select name 
+from person
+where name = 'Mukovo'
+; #15:23:18@rubyquest.db
