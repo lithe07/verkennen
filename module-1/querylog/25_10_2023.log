@@ -1,0 +1,20 @@
+select count(city.id) as aantal_steden
+from city
+join region on city.region = region.id
+where region.id = 5; #21:20:48@rubyquest.db
+select person.name, weapon.name, weapon.attack
+from person join weapon on weapon.id = person.weapon
+where person.name= 'Bowser'; #21:23:08@rubyquest.db
+select *
+from person; #21:26:13@rubyquest.db
+select person.name, weapon.name, weapon.attack
+from person join weapon on weapon.id = person.weapon
+where person.name= 'Bowser'
+; #21:28:00@rubyquest.db
+select *
+from city; #21:28:50@rubyquest.db
+select *
+from city; #21:43:14@rubyquest.db
+select *
+from person 
+where name = "Mukovo"; #21:44:30@rubyquest.db

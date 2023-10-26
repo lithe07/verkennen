@@ -1,0 +1,10 @@
+{
+    "query": "select person.name, weapon.name, weapon.attack\nfrom person join weapon on weapon.id = person.weapon\nwhere person.name= 'Bowser'",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Shell Chain",
+            "attack": 1000
+        }
+    ]
+}

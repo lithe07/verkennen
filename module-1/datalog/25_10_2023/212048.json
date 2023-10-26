@@ -1,0 +1,9 @@
+{
+    "query": "select count(city.id) as aantal_steden\nfrom city\njoin region on city.region = region.id\nwhere region.id = 5",
+    "resultcount": 1,
+    "result": [
+        {
+            "aantal_steden": 7
+        }
+    ]
+}

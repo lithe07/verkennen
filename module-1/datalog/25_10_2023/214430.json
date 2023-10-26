@@ -1,0 +1,19 @@
+{
+    "query": "select *\nfrom person \nwhere name = \"Mukovo\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 116,
+            "name": "Mukovo",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 10,
+            "defense": 10,
+            "agility": 10,
+            "experience": 0,
+            "gold": 0,
+            "weapon": 1,
+            "armor": 1
+        }
+    ]
+}
