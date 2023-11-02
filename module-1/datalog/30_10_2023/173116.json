@@ -1,0 +1,12 @@
+{
+    "query": "select * from owners",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 1,
+            "car_id": null,
+            "owner_name": "Alice Brown",
+            "purchase_date": "2007-02-10"
+        }
+    ]
+}

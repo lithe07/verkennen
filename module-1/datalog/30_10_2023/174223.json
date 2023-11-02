@@ -1,0 +1,76 @@
+{
+    "query": "select * from cars",
+    "resultcount": 10,
+    "result": [
+        {
+            "car_id": 1,
+            "name": "Opel Corsa",
+            "genre": "Hatchback",
+            "release_year": 2007,
+            "rating": 4.5
+        },
+        {
+            "car_id": 2,
+            "name": "Peugeot 208",
+            "genre": "Hatchback",
+            "release_year": 2015,
+            "rating": 9
+        },
+        {
+            "car_id": 3,
+            "name": "Ford Mustang",
+            "genre": "Sports Car",
+            "release_year": 2018,
+            "rating": 8.2
+        },
+        {
+            "car_id": 4,
+            "name": "Toyota Camry",
+            "genre": "Sedan",
+            "release_year": 2017,
+            "rating": 7.5
+        },
+        {
+            "car_id": 5,
+            "name": "Honda Civic",
+            "genre": "Sedan",
+            "release_year": 2019,
+            "rating": 7
+        },
+        {
+            "car_id": 6,
+            "name": "Chevrolet Silverado",
+            "genre": "Truck",
+            "release_year": 2016,
+            "rating": 8.8
+        },
+        {
+            "car_id": 7,
+            "name": "Volkswagen Golf",
+            "genre": "Hatchback",
+            "release_year": 2018,
+            "rating": 7.7
+        },
+        {
+            "car_id": 8,
+            "name": "Nissan Altima",
+            "genre": "Sedan",
+            "release_year": 2020,
+            "rating": 7.4
+        },
+        {
+            "car_id": 9,
+            "name": "Hyundai Elantra",
+            "genre": "Sedan",
+            "release_year": 2017,
+            "rating": 7.1
+        },
+        {
+            "car_id": 10,
+            "name": "Kia Seltos",
+            "genre": "SUV",
+            "release_year": 2022,
+            "rating": 8.5
+        }
+    ]
+}

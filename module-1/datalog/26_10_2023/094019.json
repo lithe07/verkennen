@@ -1,0 +1,10 @@
+{
+    "query": "select person.name, npc.profession, city.name\nfrom npc join person on person.id = npc.person\njoin city on npc.city = city.id\nwhere person.name = \"Mukovo\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Unterdages",
+            "profession": "Tailor"
+        }
+    ]
+}

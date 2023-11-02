@@ -1,0 +1,308 @@
+CREATE TABLE cars (
+   car_id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    platform VARCHAR(50),
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);
+; #14:32:00@99078068.db
+select * from cars; #14:33:17@99078068.db
+drop table cars; #14:34:22@99078068.db
+CREATE TABLE games (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);
+; #14:35:31@99078068.db
+CREATE TABLE cars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);
+; #14:35:44@99078068.db
+drop table games; #14:36:23@99078068.db
+select * from cars; #14:36:35@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('1', 'Opel Corsa', 2007, 4.5);
+; #14:44:11@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('2', 'peugeot', 2015, 9.0);; #14:44:27@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('3', 'Ford Mustang', 2018, 8.2);; #14:44:35@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('4', 'Toyota Camry', 2017, 7.5);; #14:44:41@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('5', 'Honda Civic', 2019, 7.0);; #14:44:47@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('6', 'Chevrolet Silverado', 2016, 8.8);; #14:44:53@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('7', 'Volkswagen Golf', 2018, 7.7);; #14:45:03@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('8', 'Nissan Altima', 2020, 7.4);; #14:45:08@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('9', 'Hyundai Elantra', 2017, 7.1);; #14:45:18@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('10', 'Kia Seltos', 2022, 8.5);
+; #14:45:24@99078068.db
+select * from cars; #14:45:33@99078068.db
+drop table cars; #14:46:28@99078068.db
+CREATE TABLE cars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);
+
+; #14:46:37@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('1', 'Opel Corsa', "Hatchback", 2007, 4.5);; #14:47:35@99078068.db
+select * from cars; #14:48:09@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('2', 'Peugeot 208', 'Hatchback', 2015, 9.0);; #14:49:52@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('3', 'Ford Mustang', 'Sports Car', 2018, 8.2);; #14:49:57@99078068.db
+
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('4', 'Toyota Camry', 'Sedan', 2017, 7.5);; #14:50:03@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('5', 'Honda Civic', 'Sedan', 2019, 7.0);; #14:50:08@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('6', 'Chevrolet Silverado', 'Truck', 2016, 8.8);; #14:50:14@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('7', 'Volkswagen Golf', 'Hatchback', 2018, 7.7);; #14:50:19@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('8', 'Nissan Altima', 'Sedan', 2020, 7.4);; #14:50:25@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('9', 'Hyundai Elantra', 'Sedan', 2017, 7.1);
+; #14:50:32@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('10', 'Kia Seltos', 'SUV', 2022, 8.5);; #14:50:39@99078068.db
+select * from cars; #14:50:48@99078068.db
+CREATE TABLE owners (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    car_id INT,
+    owner_name VARCHAR(255) NOT NULL,
+    purchase_date DATE,
+    FOREIGN KEY (car_id) REFERENCES cars(id)
+);; #14:56:31@99078068.db
+select * from cars; #14:56:45@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (1, 'Alice Brown', '2007-02-10');
+; #14:59:18@99078068.db
+
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (2, 'David Wilson', '2016-07-03');; #14:59:24@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (3, 'Emily Davis', '2020-01-20');; #14:59:29@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (4, 'Michael Lee', '2017-10-05');; #14:59:35@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (5, 'Linda Martinez', '2020-09-15');; #14:59:40@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (6, 'William Jackson', '2016-12-22');; #14:59:45@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (7, 'Patricia Harris', '2018-04-30');; #14:59:51@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (8, 'James Clark', '2021-06-17');
+; #14:59:56@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (9, 'Susan Young', '2020-03-05');; #15:00:02@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (10, 'Richard Scott', '2022-08-12');; #15:00:11@99078068.db
+select * from owners; #15:00:24@99078068.db
+DROP TABLE owners; #15:02:02@99078068.db
+drop table cars; #15:03:08@99078068.db
+
+CREATE TABLE cars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);; #15:04:18@99078068.db
+
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('1', 'Opel Corsa', 'Hatchback', 2007, 4.5);
+; #15:04:31@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('2', 'Peugeot 208', 'Hatchback', 2015, 9.0);; #15:04:36@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('3', 'Ford Mustang', 'Sports Car', 2018, 8.2);; #15:04:42@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('4', 'Toyota Camry', 'Sedan', 2017, 7.5);
+; #15:04:54@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('5', 'Honda Civic', 'Sedan', 2019, 7.0);
+; #15:05:00@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('6', 'Chevrolet Silverado', 'Truck', 2016, 8.8);; #15:05:05@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('7', 'Volkswagen Golf', 'Hatchback', 2018, 7.7);; #15:05:10@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('8', 'Nissan Altima', 'Sedan', 2020, 7.4);; #15:05:15@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('9', 'Hyundai Elantra', 'Sedan', 2017, 7.1);
+; #15:05:21@99078068.db
+INSERT INTO cars (id, name, genre, release_year, rating)
+VALUES ('10', 'Kia Seltos', 'SUV', 2022, 8.5);; #15:05:30@99078068.db
+select * from cars; #15:05:38@99078068.db
+drop table cars; #15:06:37@99078068.db
+
+CREATE TABLE cars (
+    car_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);; #15:07:09@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('1', 'Opel Corsa', 'Hatchback', 2007, 4.5);
+; #15:07:34@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('2', 'Peugeot 208', 'Hatchback', 2015, 9.0);; #15:07:47@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('3', 'Ford Mustang', 'Sports Car', 2018, 8.2);; #15:08:29@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('4', 'Toyota Camry', 'Sedan', 2017, 7.5);; #15:08:34@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('5', 'Honda Civic', 'Sedan', 2019, 7.0);; #15:08:40@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('6', 'Chevrolet Silverado', 'Truck', 2016, 8.8);; #15:08:47@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('7', 'Volkswagen Golf', 'Hatchback', 2018, 7.7);
+; #15:08:53@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('8', 'Nissan Altima', 'Sedan', 2020, 7.4);; #15:09:00@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('9', 'Hyundai Elantra', 'Sedan', 2017, 7.1);; #15:09:07@99078068.db
+INSERT INTO cars (car_id, name, genre, release_year, rating)
+VALUES ('10', 'Kia Seltos', 'SUV', 2022, 8.5);
+; #15:09:13@99078068.db
+select * from cars; #15:09:20@99078068.db
+CREATE TABLE owners (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    car_id INT,
+    owner_name VARCHAR(255) NOT NULL,
+    purchase_date DATE,
+    FOREIGN KEY (car_id) REFERENCES cars(id)
+);; #15:10:03@99078068.db
+INSERT INTO owners (car_id, owner_name, purchase_date)
+VALUES (1, 'Alice Brown', '2007-02-10');; #15:11:08@99078068.db
+select * from owners; #15:11:19@99078068.db
+INSERT INTO owners (owner_name, purchase_date)
+VALUES ('Alice Brown', '2007-02-10');; #15:13:04@99078068.db
+select * from owners; #15:13:22@99078068.db
+select * from cars; #15:13:45@99078068.db
+drop table owners; #15:14:58@99078068.db
+CREATE TABLE owners (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    car_id INT,
+    owner_name VARCHAR(255) NOT NULL,
+    purchase_date DATE,
+    FOREIGN KEY (car_id) REFERENCES cars(id)
+);; #15:15:20@99078068.db
+INSERT INTO owners (owner_name, purchase_date)
+VALUES ('Alice Brown', '2007-02-10');; #15:15:43@99078068.db
+select * from owners; #15:15:55@99078068.db
+select * from owners; #15:16:38@99078068.db
+select * from cars; #15:17:31@99078068.db
+drop table cars; #15:24:27@99078068.db
+drop table owners; #15:24:34@99078068.db
+CREATE TABLE cars (
+    car_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(255) NOT NULL,
+    genre VARCHAR(50),
+    release_year INT,
+    rating DECIMAL(3, 1)
+);
+; #15:24:47@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Opel Corsa', 'Hatchback', 2007, 4.5);; #15:26:31@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Peugeot 208', 'Hatchback', 2015, 9.0);; #15:26:37@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Ford Mustang', 'Sports Car', 2018, 8.2);; #15:26:42@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Toyota Camry', 'Sedan', 2017, 7.5);; #15:26:49@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Honda Civic', 'Sedan', 2019, 7.0);; #15:26:55@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Chevrolet Silverado', 'Truck', 2016, 8.8);; #15:27:01@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Volkswagen Golf', 'Hatchback', 2018, 7.7);; #15:27:06@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Nissan Altima', 'Sedan', 2020, 7.4);; #15:27:12@99078068.db
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Hyundai Elantra', 'Sedan', 2017, 7.1);; #15:27:17@99078068.db
+
+INSERT INTO cars (name, genre, release_year, rating)
+VALUES ('Kia Seltos', 'SUV', 2022, 8.5);
+; #15:27:23@99078068.db
+select * from cars; #15:27:30@99078068.db
+CREATE TABLE owners (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    car_id INTEGER,
+    owner_name TEXT NOT NULL,
+    purchase_date DATE,
+    FOREIGN KEY (car_id) REFERENCES cars(id)
+);
+
+; #15:33:37@99078068.db
+INSERT INTO owners (owner_name, purchase_date)
+VALUES ('Alice Brown', '2007-02-10');; #15:34:53@99078068.db
+select * from owners; #15:35:04@99078068.db
+select * from owners; #17:31:16@99078068.db
+select * from cars; #17:31:30@99078068.db
+drop table owners; #17:33:58@99078068.db
+CREATE TABLE owners (
+    owner_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    car_id INTEGER,
+    manufacturer_name TEXT NOT NULL,
+    country TEXT,
+    FOREIGN KEY (car_id) REFERENCES cars(car_id)
+);; #17:34:47@99078068.db
+select * from owners; #17:36:50@99078068.db
+drop table owners; #17:37:22@99078068.db
+CREATE TABLE owners (
+    owner_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    car_id INTEGER,
+    nameTEXT NOT NULL,
+    purschase_date  DATE,
+    FOREIGN KEY (car_id) REFERENCES cars(car_id)
+);
+; #17:38:41@99078068.db
+select * from owners; #17:38:53@99078068.db
+drop table owners; #17:39:20@99078068.db
+CREATE TABLE owners (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    car_id INTEGER,
+    owner_name TEXT NOT NULL,
+    purchase_date DATE,
+    FOREIGN KEY (car_id) REFERENCES cars(id)
+);
+; #17:39:23@99078068.db
+select * from owners; #17:39:32@99078068.db
+drop table owners; #17:40:23@99078068.db
+
+CREATE TABLE owners (
+    owner_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    purchase_date DATE,
+    car_id INTEGER,
+    FOREIGN KEY (car_id) REFERENCES cars(car_id)
+);; #17:41:48@99078068.db
+select * from owners; #17:41:58@99078068.db
+select * from cars; #17:42:23@99078068.db
+select * from person; #17:42:43@rubyquest.db
+select * from animal; #17:43:13@rubyquest.db
+select * from person
+; #17:43:50@rubyquest.db
+select * from animal; #17:44:18@rubyquest.db
+drop table owners; #17:44:46@99078068.db
+drop table cars; #17:44:55@99078068.db

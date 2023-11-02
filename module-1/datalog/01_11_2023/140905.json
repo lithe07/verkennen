@@ -1,0 +1,76 @@
+{
+    "query": "select * from onderhoudsbeurten",
+    "resultcount": 10,
+    "result": [
+        {
+            "onderhoudsbeurt_id": 1,
+            "auto_id": 1,
+            "datum": "2023-01-15",
+            "omschrijving": "Jaarlijkse inspectie",
+            "kosten": 150
+        },
+        {
+            "onderhoudsbeurt_id": 2,
+            "auto_id": 2,
+            "datum": "2023-02-10",
+            "omschrijving": "Olie verversen",
+            "kosten": 50
+        },
+        {
+            "onderhoudsbeurt_id": 3,
+            "auto_id": 3,
+            "datum": "2023-03-20",
+            "omschrijving": "Remblokken vervangen",
+            "kosten": 200
+        },
+        {
+            "onderhoudsbeurt_id": 4,
+            "auto_id": 4,
+            "datum": "2023-04-05",
+            "omschrijving": "Airconditioning reparatie",
+            "kosten": 300
+        },
+        {
+            "onderhoudsbeurt_id": 5,
+            "auto_id": 5,
+            "datum": "2023-05-12",
+            "omschrijving": "Banden vervangen",
+            "kosten": 400
+        },
+        {
+            "onderhoudsbeurt_id": 6,
+            "auto_id": 6,
+            "datum": "2023-06-30",
+            "omschrijving": "Grote onderhoudsbeurt",
+            "kosten": 500
+        },
+        {
+            "onderhoudsbeurt_id": 7,
+            "auto_id": 7,
+            "datum": "2023-07-18",
+            "omschrijving": "Accu vervangen",
+            "kosten": 80
+        },
+        {
+            "onderhoudsbeurt_id": 8,
+            "auto_id": 8,
+            "datum": "2023-08-22",
+            "omschrijving": "Schadeherstel",
+            "kosten": 600
+        },
+        {
+            "onderhoudsbeurt_id": 9,
+            "auto_id": 9,
+            "datum": "2023-09-07",
+            "omschrijving": "Uitlaatreparatie",
+            "kosten": 150
+        },
+        {
+            "onderhoudsbeurt_id": 10,
+            "auto_id": 10,
+            "datum": "2023-10-14",
+            "omschrijving": "Koppeling vervangen",
+            "kosten": 250
+        }
+    ]
+}

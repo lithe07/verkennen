@@ -1,0 +1,9 @@
+{
+    "query": "SELECT city.name , person.name , region.name FROM region\njoin person on person.id = region.holder\njoin city on city.id = region.holder\nwhere region.name  = 'South Groval'",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "South Groval"
+        }
+    ]
+}

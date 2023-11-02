@@ -1,0 +1,66 @@
+{
+    "query": "select * from eigenaar",
+    "resultcount": 10,
+    "result": [
+        {
+            "eigenaar_id": 1,
+            "naam": "John Doe",
+            "leeftijd": 35,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 2,
+            "naam": "Jane Smith",
+            "leeftijd": 28,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 3,
+            "naam": "Robert Johnson",
+            "leeftijd": 42,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 4,
+            "naam": "Emily Davis",
+            "leeftijd": 33,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 5,
+            "naam": "Michael Wilson",
+            "leeftijd": 40,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 6,
+            "naam": "Sarah Brown",
+            "leeftijd": 27,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 7,
+            "naam": "David Lee",
+            "leeftijd": 38,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 8,
+            "naam": "Jennifer Taylor",
+            "leeftijd": 31,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 9,
+            "naam": "William Anderson",
+            "leeftijd": 45,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 10,
+            "naam": "Linda Clark",
+            "leeftijd": 29,
+            "geslacht": "Vrouwelijk"
+        }
+    ]
+}

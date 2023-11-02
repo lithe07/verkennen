@@ -1,0 +1,9 @@
+{
+    "query": "select person.name, armor.name, weapon.name\nfrom person join armor on person.armor = armor.id\njoin weapon on weapon.id = person.weapon\nwhere person.name = \"Konan\" \n",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Longsword"
+        }
+    ]
+}

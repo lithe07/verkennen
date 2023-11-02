@@ -1,0 +1,66 @@
+{
+    "query": "select * from owners",
+    "resultcount": 10,
+    "result": [
+        {
+            "id": null,
+            "car_id": 1,
+            "owner_name": "Alice Brown",
+            "purchase_date": "2007-02-10"
+        },
+        {
+            "id": null,
+            "car_id": 2,
+            "owner_name": "David Wilson",
+            "purchase_date": "2016-07-03"
+        },
+        {
+            "id": null,
+            "car_id": 3,
+            "owner_name": "Emily Davis",
+            "purchase_date": "2020-01-20"
+        },
+        {
+            "id": null,
+            "car_id": 4,
+            "owner_name": "Michael Lee",
+            "purchase_date": "2017-10-05"
+        },
+        {
+            "id": null,
+            "car_id": 5,
+            "owner_name": "Linda Martinez",
+            "purchase_date": "2020-09-15"
+        },
+        {
+            "id": null,
+            "car_id": 6,
+            "owner_name": "William Jackson",
+            "purchase_date": "2016-12-22"
+        },
+        {
+            "id": null,
+            "car_id": 7,
+            "owner_name": "Patricia Harris",
+            "purchase_date": "2018-04-30"
+        },
+        {
+            "id": null,
+            "car_id": 8,
+            "owner_name": "James Clark",
+            "purchase_date": "2021-06-17"
+        },
+        {
+            "id": null,
+            "car_id": 9,
+            "owner_name": "Susan Young",
+            "purchase_date": "2020-03-05"
+        },
+        {
+            "id": null,
+            "car_id": 10,
+            "owner_name": "Richard Scott",
+            "purchase_date": "2022-08-12"
+        }
+    ]
+}

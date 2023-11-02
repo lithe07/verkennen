@@ -1,0 +1,20 @@
+select person.name, npc.profession, city.name
+from npc join person on person.id = npc.person
+join city on npc.city = city.id
+where person.name = "Mukovo"; #09:40:19@rubyquest.db
+select person.name, armor.name, weapon.name
+from person join armor on person.armor = armor.id
+join weapon on weapon.id = person.weapon
+where person.name = "Konan" 
+; #09:54:19@rubyquest.db
+select *
+from person; #10:24:25@rubyquest.db
+select *
+from region; #10:24:50@rubyquest.db
+select *
+from city
+; #10:24:58@rubyquest.db
+SELECT city.name , person.name , region.name FROM region
+join person on person.id = region.holder
+join city on city.id = region.holder
+where region.name  = 'South Groval'; #10:26:26@rubyquest.db

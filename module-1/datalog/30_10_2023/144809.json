@@ -1,0 +1,13 @@
+{
+    "query": "select * from cars",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 1,
+            "name": "Opel Corsa",
+            "genre": "Hatchback",
+            "release_year": 2007,
+            "rating": 4.5
+        }
+    ]
+}

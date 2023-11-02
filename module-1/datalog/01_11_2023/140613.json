@@ -1,0 +1,246 @@
+{
+    "query": "select * from eigenaar",
+    "resultcount": 40,
+    "result": [
+        {
+            "eigenaar_id": 1,
+            "naam": "John Doe",
+            "leeftijd": 35,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 2,
+            "naam": "Jane Smith",
+            "leeftijd": 28,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 3,
+            "naam": "Robert Johnson",
+            "leeftijd": 42,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 4,
+            "naam": "Emily Davis",
+            "leeftijd": 33,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 5,
+            "naam": "Michael Wilson",
+            "leeftijd": 40,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 6,
+            "naam": "Sarah Brown",
+            "leeftijd": 27,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 7,
+            "naam": "David Lee",
+            "leeftijd": 38,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 8,
+            "naam": "Jennifer Taylor",
+            "leeftijd": 31,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 9,
+            "naam": "William Anderson",
+            "leeftijd": 45,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 10,
+            "naam": "Linda Clark",
+            "leeftijd": 29,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 11,
+            "naam": "John Doe",
+            "leeftijd": 35,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 12,
+            "naam": "Jane Smith",
+            "leeftijd": 28,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 13,
+            "naam": "Robert Johnson",
+            "leeftijd": 42,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 14,
+            "naam": "Emily Davis",
+            "leeftijd": 33,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 15,
+            "naam": "Michael Wilson",
+            "leeftijd": 40,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 16,
+            "naam": "Sarah Brown",
+            "leeftijd": 27,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 17,
+            "naam": "David Lee",
+            "leeftijd": 38,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 18,
+            "naam": "Jennifer Taylor",
+            "leeftijd": 31,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 19,
+            "naam": "William Anderson",
+            "leeftijd": 45,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 20,
+            "naam": "Linda Clark",
+            "leeftijd": 29,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 21,
+            "naam": "John Doe",
+            "leeftijd": 35,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 22,
+            "naam": "Jane Smith",
+            "leeftijd": 28,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 23,
+            "naam": "Robert Johnson",
+            "leeftijd": 42,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 24,
+            "naam": "Emily Davis",
+            "leeftijd": 33,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 25,
+            "naam": "Michael Wilson",
+            "leeftijd": 40,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 26,
+            "naam": "Sarah Brown",
+            "leeftijd": 27,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 27,
+            "naam": "David Lee",
+            "leeftijd": 38,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 28,
+            "naam": "Jennifer Taylor",
+            "leeftijd": 31,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 29,
+            "naam": "William Anderson",
+            "leeftijd": 45,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 30,
+            "naam": "Linda Clark",
+            "leeftijd": 29,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 31,
+            "naam": "John Doe",
+            "leeftijd": 35,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 32,
+            "naam": "Jane Smith",
+            "leeftijd": 28,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 33,
+            "naam": "Robert Johnson",
+            "leeftijd": 42,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 34,
+            "naam": "Emily Davis",
+            "leeftijd": 33,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 35,
+            "naam": "Michael Wilson",
+            "leeftijd": 40,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 36,
+            "naam": "Sarah Brown",
+            "leeftijd": 27,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 37,
+            "naam": "David Lee",
+            "leeftijd": 38,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 38,
+            "naam": "Jennifer Taylor",
+            "leeftijd": 31,
+            "geslacht": "Vrouwelijk"
+        },
+        {
+            "eigenaar_id": 39,
+            "naam": "William Anderson",
+            "leeftijd": 45,
+            "geslacht": "Mannelijk"
+        },
+        {
+            "eigenaar_id": 40,
+            "naam": "Linda Clark",
+            "leeftijd": 29,
+            "geslacht": "Vrouwelijk"
+        }
+    ]
+}

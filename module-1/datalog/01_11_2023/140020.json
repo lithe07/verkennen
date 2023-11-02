@@ -1,0 +1,86 @@
+{
+    "query": "select * from auto",
+    "resultcount": 10,
+    "result": [
+        {
+            "auto_id": 1,
+            "merk": "Toyota",
+            "model": "Camry",
+            "bouwjaar": 2020,
+            "kleur": "Zwart",
+            "prijs": 25000
+        },
+        {
+            "auto_id": 2,
+            "merk": "Ford",
+            "model": "F-150",
+            "bouwjaar": 2019,
+            "kleur": "Blauw",
+            "prijs": 35000
+        },
+        {
+            "auto_id": 3,
+            "merk": "Honda",
+            "model": "Civic",
+            "bouwjaar": 2021,
+            "kleur": "Rood",
+            "prijs": 22000
+        },
+        {
+            "auto_id": 4,
+            "merk": "Chevrolet",
+            "model": "Malibu",
+            "bouwjaar": 2018,
+            "kleur": "Zilver",
+            "prijs": 18000
+        },
+        {
+            "auto_id": 5,
+            "merk": "BMW",
+            "model": "X5",
+            "bouwjaar": 2022,
+            "kleur": "Wit",
+            "prijs": 50000
+        },
+        {
+            "auto_id": 6,
+            "merk": "Audi",
+            "model": "A4",
+            "bouwjaar": 2019,
+            "kleur": "Grijs",
+            "prijs": 30000
+        },
+        {
+            "auto_id": 7,
+            "merk": "Mercedes-Benz",
+            "model": "E-Class",
+            "bouwjaar": 2020,
+            "kleur": "Zwart",
+            "prijs": 40000
+        },
+        {
+            "auto_id": 8,
+            "merk": "Nissan",
+            "model": "Altima",
+            "bouwjaar": 2017,
+            "kleur": "Rood",
+            "prijs": 16000
+        },
+        {
+            "auto_id": 9,
+            "merk": "Jeep",
+            "model": "Wrangler",
+            "bouwjaar": 2021,
+            "kleur": "Groen",
+            "prijs": 35000
+        },
+        {
+            "auto_id": 10,
+            "merk": "Hyundai",
+            "model": "Elantra",
+            "bouwjaar": 2020,
+            "kleur": "Blauw",
+            "prijs": 20000
+        }
+    ]
+}

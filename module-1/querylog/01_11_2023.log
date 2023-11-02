@@ -1,0 +1,121 @@
+select * from person; #13:28:18@rubyquest.db
+select * from animal; #13:42:19@rubyquest.db
+select * from person
+; #13:45:30@rubyquest.db
+CREATE TABLE Auto (
+    auto_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    merk TEXT,
+    model TEXT,
+    bouwjaar INTEGER,
+    kleur TEXT,
+    prijs NUMERIC
+);
+; #13:57:55@99078068.db
+select * from auto; #13:58:36@99078068.db
+
+INSERT INTO Auto (merk, model, bouwjaar, kleur, prijs) VALUES
+('Toyota', 'Camry', 2020, 'Zwart', 25000.00),
+('Ford', 'F-150', 2019, 'Blauw', 35000.00),
+('Honda', 'Civic', 2021, 'Rood', 22000.00),
+('Chevrolet', 'Malibu', 2018, 'Zilver', 18000.00),
+('BMW', 'X5', 2022, 'Wit', 50000.00),
+('Audi', 'A4', 2019, 'Grijs', 30000.00),
+('Mercedes-Benz', 'E-Class', 2020, 'Zwart', 40000.00),
+('Nissan', 'Altima', 2017, 'Rood', 16000.00),
+('Jeep', 'Wrangler', 2021, 'Groen', 35000.00),
+('Hyundai', 'Elantra', 2020, 'Blauw', 20000.00);; #13:59:56@99078068.db
+select * from auto; #14:00:20@99078068.db
+CREATE TABLE Eigenaar (
+    eigenaar_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    naam TEXT,
+    leeftijd INTEGER,
+    geslacht TEXT
+);; #14:05:52@99078068.db
+INSERT INTO Eigenaar (naam, leeftijd, geslacht) VALUES
+('John Doe', 35, 'Mannelijk'),
+('Jane Smith', 28, 'Vrouwelijk'),
+('Robert Johnson', 42, 'Mannelijk'),
+('Emily Davis', 33, 'Vrouwelijk'),
+('Michael Wilson', 40, 'Mannelijk'),
+('Sarah Brown', 27, 'Vrouwelijk'),
+('David Lee', 38, 'Mannelijk'),
+('Jennifer Taylor', 31, 'Vrouwelijk'),
+('William Anderson', 45, 'Mannelijk'),
+('Linda Clark', 29, 'Vrouwelijk');; #14:06:01@99078068.db
+INSERT INTO Eigenaar (naam, leeftijd, geslacht) VALUES
+('John Doe', 35, 'Mannelijk'),
+('Jane Smith', 28, 'Vrouwelijk'),
+('Robert Johnson', 42, 'Mannelijk'),
+('Emily Davis', 33, 'Vrouwelijk'),
+('Michael Wilson', 40, 'Mannelijk'),
+('Sarah Brown', 27, 'Vrouwelijk'),
+('David Lee', 38, 'Mannelijk'),
+('Jennifer Taylor', 31, 'Vrouwelijk'),
+('William Anderson', 45, 'Mannelijk'),
+('Linda Clark', 29, 'Vrouwelijk');; #14:06:02@99078068.db
+INSERT INTO Eigenaar (naam, leeftijd, geslacht) VALUES
+('John Doe', 35, 'Mannelijk'),
+('Jane Smith', 28, 'Vrouwelijk'),
+('Robert Johnson', 42, 'Mannelijk'),
+('Emily Davis', 33, 'Vrouwelijk'),
+('Michael Wilson', 40, 'Mannelijk'),
+('Sarah Brown', 27, 'Vrouwelijk'),
+('David Lee', 38, 'Mannelijk'),
+('Jennifer Taylor', 31, 'Vrouwelijk'),
+('William Anderson', 45, 'Mannelijk'),
+('Linda Clark', 29, 'Vrouwelijk');; #14:06:03@99078068.db
+INSERT INTO Eigenaar (naam, leeftijd, geslacht) VALUES
+('John Doe', 35, 'Mannelijk'),
+('Jane Smith', 28, 'Vrouwelijk'),
+('Robert Johnson', 42, 'Mannelijk'),
+('Emily Davis', 33, 'Vrouwelijk'),
+('Michael Wilson', 40, 'Mannelijk'),
+('Sarah Brown', 27, 'Vrouwelijk'),
+('David Lee', 38, 'Mannelijk'),
+('Jennifer Taylor', 31, 'Vrouwelijk'),
+('William Anderson', 45, 'Mannelijk'),
+('Linda Clark', 29, 'Vrouwelijk');; #14:06:03@99078068.db
+select * from eigenaar; #14:06:13@99078068.db
+drop table eigenaar; #14:06:41@99078068.db
+CREATE TABLE Eigenaar (
+    eigenaar_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    naam TEXT,
+    leeftijd INTEGER,
+    geslacht TEXT
+);; #14:06:47@99078068.db
+INSERT INTO Eigenaar (naam, leeftijd, geslacht) VALUES
+('John Doe', 35, 'Mannelijk'),
+('Jane Smith', 28, 'Vrouwelijk'),
+('Robert Johnson', 42, 'Mannelijk'),
+('Emily Davis', 33, 'Vrouwelijk'),
+('Michael Wilson', 40, 'Mannelijk'),
+('Sarah Brown', 27, 'Vrouwelijk'),
+('David Lee', 38, 'Mannelijk'),
+('Jennifer Taylor', 31, 'Vrouwelijk'),
+('William Anderson', 45, 'Mannelijk'),
+('Linda Clark', 29, 'Vrouwelijk');; #14:06:54@99078068.db
+select * from eigenaar; #14:07:03@99078068.db
+CREATE TABLE Onderhoudsbeurten (
+    onderhoudsbeurt_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    auto_id INTEGER,
+    datum DATE,
+    omschrijving TEXT,
+    kosten DECIMAL(10, 2),
+    FOREIGN KEY (auto_id) REFERENCES Auto(auto_id)
+);; #14:08:22@99078068.db
+INSERT INTO Onderhoudsbeurten (auto_id, datum, omschrijving, kosten) VALUES
+(1, '2023-01-15', 'Jaarlijkse inspectie', 150.00),
+(2, '2023-02-10', 'Olie verversen', 50.00),
+(3, '2023-03-20', 'Remblokken vervangen', 200.00),
+(4, '2023-04-05', 'Airconditioning reparatie', 300.00),
+(5, '2023-05-12', 'Banden vervangen', 400.00),
+(6, '2023-06-30', 'Grote onderhoudsbeurt', 500.00),
+(7, '2023-07-18', 'Accu vervangen', 80.00),
+(8, '2023-08-22', 'Schadeherstel', 600.00),
+(9, '2023-09-07', 'Uitlaatreparatie', 150.00),
+(10, '2023-10-14', 'Koppeling vervangen', 250.00);; #14:08:51@99078068.db
+select * from onderhoudsbeurten; #14:09:05@99078068.db
+select * from eigenaar; #14:09:47@99078068.db
+select * from onderhoudsbeurten; #14:10:26@99078068.db
+select * from auto
+; #15:03:59@99078068.db

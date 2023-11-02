@@ -1,0 +1,5 @@
+{
+    "query": "select * from owners",
+    "resultcount": 0,
+    "result": []
+}
