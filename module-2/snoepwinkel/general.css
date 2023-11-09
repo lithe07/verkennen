@@ -1,62 +1,49 @@
-* {
+.black-bg {
     background-color: black;
 }
 
-header h1 {
-    color: green; 
+.header-bg {
+    background-color: black;
 }
   
-header p {
+.green-text {
+    color: green;
+}
+  
+.blue-text {
     font-weight: bold;
-    color: blue; 
-}
-  
- 
-section {
-    background-color: black; 
-}
-  
-section h2:nth-child(1) {
-    color: orange; 
-}
-  
-section p:nth-child(2) {
-    color: blue; 
-}
-  
-section p:nth-child(3) {
-    color: yellow; 
-}
-  
-section p[paragraph="last"] {
-    color: red; 
-}
-  
-
-div  p{
-    color: yellow;
-    background-color: red; 
-}
-  
-
-section h2:nth-child(2) {
-    color: orange; 
-}
-  
-section p:nth-child(5) {
     color: blue;
 }
+
+.section-bg {
+    background-color: black;
+}
   
-section p:nth-child(6) {
+.orange-text {
+    color: orange;
+}
+  
+.yellow-text {
     color: yellow;
 }
   
-section p[paragraph="last"]:last-of-type {
+.red-text {
     color: red;
 }
-   
-footer p {
-    color: red;
-    text-decoration: underline; 
+  
+.monospace {
+    font-family: monospace;
+}
+
+.yellow-bg {
+    background-color: red;
+}
+  
+.footer-bg {
+    background-color: black;
+}
+  
+.underline {
+    text-decoration: underline;
 }
   
