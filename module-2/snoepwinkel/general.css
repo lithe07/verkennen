@@ -1,16 +1,62 @@
-html {
+* {
     background-color: black;
 }
 
-h1 {
-    color: greenyellow;
+header h1 {
+    color: green; 
 }
+  
+header p {
+    font-weight: bold;
+    color: blue; 
+}
+  
+ 
+section {
+    background-color: black; 
+}
+  
+section h2:nth-child(1) {
+    color: orange; 
+}
+  
+section p:nth-child(2) {
+    color: blue; 
+}
+  
+section p:nth-child(3) {
+    color: yellow; 
+}
+  
+section p[paragraph="last"] {
+    color: red; 
+}
+  
 
-p {
+div  p{
+    color: yellow;
+    background-color: red; 
+}
+  
+
+section h2:nth-child(2) {
+    color: orange; 
+}
+  
+section p:nth-child(5) {
     color: blue;
 }
-
-h2 {
-    color: orange;
+  
+section p:nth-child(6) {
+    color: yellow;
 }
-
+  
+section p[paragraph="last"]:last-of-type {
+    color: red;
+}
+   
+footer p {
+    color: red;
+    text-decoration: underline; 
+}
+  
