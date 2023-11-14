@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh; /* 100% van de viewport hoogte */
+    margin: 0; /* Reset de standaard marges van het body-element */
+  }
+  
+/* Stijlen voor box-1 */
+#box-1 {
+    background-color: lightblue; /* Achtergrondkleur voor box-1 */
+    padding: 20px; /* Padding rond de inhoud van box-1 */
+    border: 2px solid navy; /* Border rond de inhoud van box-1 */
+    margin: 10px; /* Buitenmarge van box-1 */
+  }
+  
+  /* Stijlen voor box-2 */
+  #box-2 {
+    background-color: lightgreen; /* Achtergrondkleur voor box-2 */
+    padding: 20px; /* Padding rond de inhoud van box-2 */
+    border: 2px solid darkgreen; /* Border rond de inhoud van box-2 */
+    margin: 10px; /* Buitenmarge van box-2 */
+  }
+  
+  /* Stijlen voor box-in-box2 */
+  #box-in-box2 {
+    background-color: lightcoral; /* Achtergrondkleur voor box-in-box2 */
+    padding: 20px; /* Padding rond de inhoud van box-in-box2 */
+    border: 2px solid darkred; /* Border rond de inhoud van box-in-box2 */
+    margin: 10px; /* Buitenmarge van box-in-box2 */
+  }
+  
