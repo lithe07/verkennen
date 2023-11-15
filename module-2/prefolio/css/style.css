@@ -59,15 +59,14 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-/* Stijl voor hyperlinks */
 nav a {
-    text-decoration: none; /* Verwijder onderstreping */
-    color: #3498db; /* Blauwe kleur */
-    font-weight: bold; /* Vetgedrukte tekst */
-    margin-right: 15px; /* Ruimte tussen de links */
+    text-decoration: none; 
+    color: #3498db; 
+    font-weight: bold; 
+    margin-right: 15px; 
 }
 
-/* Stijl voor hover (wanneer de muis erover zweeft) */
+
 nav a:hover {
-    color: #e74c3c; /* Rode kleur */
+    color: #e74c3c; 
 }
