@@ -58,3 +58,16 @@ footer {
     padding-top: 10px;
     border-top: 1px solid #ddd;
 }
+
+/* Stijl voor hyperlinks */
+nav a {
+    text-decoration: none; /* Verwijder onderstreping */
+    color: #3498db; /* Blauwe kleur */
+    font-weight: bold; /* Vetgedrukte tekst */
+    margin-right: 15px; /* Ruimte tussen de links */
+}
+
+/* Stijl voor hover (wanneer de muis erover zweeft) */
+nav a:hover {
+    color: #e74c3c; /* Rode kleur */
+}
