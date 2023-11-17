@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #50332c; /* Donkerblauw */
+    text-align: center;
+}
+
+h2 {
+    color: #db3434; /* Donkerblauw */
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Optioneel: voeg wat styling toe aan koppen en lijsten */
+h2:nth-of-type(1) {
+    color: #e74c3c; /* Rood */
+}
+
+h2:nth-of-type(2) {
+    color: #27ae60; /* Groen */
+}
