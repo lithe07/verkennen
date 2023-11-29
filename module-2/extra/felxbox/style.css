@@ -1,0 +1,19 @@
+
+nav {
+
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkseagreen;
+}
+
+nav>div {
+
+  flex-direction: column;
+  flex-basis: 50px;
+  flex-grow: 1;
+  height: 30px;
+  background-color: lightseagreen;
+  margin:2px;
+  text-align: center;
+  padding: 20px;
+}

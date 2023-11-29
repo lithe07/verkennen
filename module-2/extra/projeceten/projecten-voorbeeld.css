@@ -1,0 +1,40 @@
+  body {
+    width: 95%;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  section.projecten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* zorg dat dit een flexbox wordt en zorg dat de items worden gewrapt */
+  }
+
+  div.project {
+    flex-direction: column-reverse;
+    flex-basis: 50px;
+    /* bepaal: opvulling, relatieve breedte tov section.projecten, tekstuitlijning (centrum), minimale breedte */
+  }
+
+  p.logo {
+    /* bepaal: vaste hoogte */
+    width: 100px;
+  }
+
+
+  p.logo img {
+    width: 100px;
+    /* bepaal: relatieve breedte van de afbeelding tov div.project */
+  }
+
+  p.language {
+    /* bepaal: font-relatieve lettergrootte */
+  }
+
+  p.title {
+    /* bepaal: font-relatieve lettergrootte, letterdikte*/
+  }
+  p.description{
+    /* bepaal: font-relatieve lettergrootte, tekstuitlijning links*/
+  }

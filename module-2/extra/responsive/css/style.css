@@ -1,0 +1,109 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: red;
+  color: green;
+  width: 500px;
+  margin: 0 auto;
+}
+ 
+.large-img {
+  display: none;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: white;
+  width : 480px;
+}
+ 
+nav {
+  text-align: center;
+}
+ 
+nav a {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px black dotted;
+  text-align: center;
+}
+nav a:link, nav a:visited, nav a:active {
+  color: white;
+  text-decoration: none;
+}
+ 
+header p {
+  text-align: center;
+  font-size: 16px;
+}
+ 
+h1 {
+  text-align: center;
+}
+ 
+ 
+.tiny, .small, .medium, .large {
+  display: none !important;
+}
+ 
+ 
+@media (max-width: 576px) {
+ 
+  .tiny {
+    display: block !important;
+    font-size: x-small;
+  }
+  .medium, .small, .large {
+    display: none !important;
+  }
+  body {
+    width: 576px;
+    background-color: blue;
+  }
+ 
+}
+ 
+ 
+@media (min-width: 576px) {
+  body {
+    background-color: red;
+  }
+  .small {
+    display: block !important;
+    font-size: small;
+  }
+  .medium, .large, .tiny {
+    display: none !important;
+  }
+ 
+}
+ 
+ 
+ 
+@media (min-width: 768px) {
+  .medium {
+    display: block !important;
+    font-size: medium;
+  }
+  .large, .small, .tiny {
+    display: none !important;
+  }
+  body {
+    background-color: lime;
+  }
+}
+ 
+ 
+ 
+@media (min-width: 992px) {
+  .large {
+    display: block !important;
+    font-size: large;
+  }
+  .medium, .small, .tiny {
+    display: none !important;
+  }
+  body {
+    background-color: purple;
+  }
+}
