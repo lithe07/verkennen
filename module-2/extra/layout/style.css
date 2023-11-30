@@ -1,0 +1,110 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-columns: [col1-start] 25% [col2-start] 25%  [col3-start] 25% [col4-start] 25% [col4-end];;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container>*{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-container>header{ 
+  grid-column-start: col1-start;
+  grid-column-end: col4-end;
+}
+.grid-container>nav{
+  grid-column-start: col1-start;
+  grid-column-end: col4-end;
+
+}
+.grid-container>footer{
+  grid-column-start: col1-start;
+  grid-column-end: col4-end;
+}
+.grid-container>section{
+  grid-column-start: col1-start;
+  grid-column-end: col4-end;
+}
+.grid-container>aside {
+  grid-column-start: col1-start;
+  grid-column-end: col4-end;
+  
+}
+
+@media screen and (min-width : 768px){
+
+  .grid-container{
+    
+  }
+
+  .grid-container>header{ 
+    grid-column-start: col1-start;
+    grid-column-end: col4-end;
+  }
+  .grid-container>nav{
+    grid-row-start: 2;
+    grid-row-end: span 3;
+    grid-column-start: col1-start;
+    grid-column-end: col2-start;
+
+  }
+  .grid-container>footer{
+    grid-column-start: col1-start;
+    grid-column-end: col4-end;
+  }
+  .grid-container>section{
+    grid-column-start: col2-start;
+    grid-column-end: col4-end;
+  }
+  .grid-container>aside {
+    grid-column-start: col1-start;
+    grid-column-end: col4-end;
+    
+  }
+}
+
+
+@media screen and (min-width : 992px){
+
+  .grid-container{
+
+  }
+
+  .grid-container>header{ 
+    grid-column-start: col1-start;
+    grid-column-end: col4-end;
+    
+  }
+  .grid-container>nav{
+    grid-row-start: 2;
+    grid-row-end: span 3;
+    grid-column-start: col1-start;
+    grid-column-end: col2-start;
+
+    
+  }
+  .grid-container>footer{
+    grid-column-start: col1-start;
+    grid-column-end: col4-end;
+
+  }
+  .grid-container>section{
+    grid-column-start: col2-start;
+    grid-column-end: col4-start;
+    
+  }
+  .grid-container>aside {
+    grid-row-start: 2;
+    grid-row-end: span 3;
+    grid-column-start: col4-start;
+    grid-column-end: col4-end;
+    
+  }
+
+}
+
