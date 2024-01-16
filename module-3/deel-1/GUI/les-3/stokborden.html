@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Base</h1>
+  <form id="form">
+    <p>
+      <label>Aantal stokbroden: </label>
+      <input type="text" name="input" id="input">
+    </p>
+    <p>
+        <label>Aantal croissants: </label>
+        <input type="text" name="input" id="input_c">
+      </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>Result</h1>
+    <p><label>te betalen: </label><span id="detail"></span></p>
+  </div>
+
+  <script>
+    const STOKBROOD_PRIJS = 1.92;
+    const CROISSANT_PRIJS = 0.49;
+
+    function submit(event){
+        let totaal_bedrag = 0;
+      const aantal_stokbroden = input.value;
+      const aantal_croissants = input_c.value;
+    //   console.log(aantal_stokbroden);
+      totaal_bedrag +=  aantal_stokbroden * STOKBROOD_PRIJS;
+      totaal_bedrag += aantal_croissants * CROISSANT_PRIJS;
+    //   console.log(`$ ${totaal_bedrag.toFixed(2)}`);
+      detail.innerText = `$ ${totaal_bedrag.toFixed(2)}`;
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
