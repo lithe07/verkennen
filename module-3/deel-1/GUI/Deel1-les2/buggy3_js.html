@@ -24,11 +24,11 @@
     let heightInput = input_height.value; 
     let diameterInput = input_diameter.value; 
     let height = Number(heightInput); 
-    let diameter = Number(diametersInput); // regel bevat bug
-    let content = calculateCilinderContent(diameter) // regel bevat bug
+    let diameter = Number(diameterInput); // regel bevat bug
+    let content = calculateCilinderContent(diameter, height) // regel bevat bug
     result.textContent = content.toFixed(2); 
   }
 
-  calculate_button.addEventListener('Click',calculate); // regel bevat bug
+  calculate_button.addEventListener('click',calculate); // regel bevat bug
 </script>
 </html>

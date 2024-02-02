@@ -15,15 +15,15 @@
 /*
   Onderstaande script moet ervoor zorgen dat als op de knop Bereken wordt geklikt de function roundToCoin moet worden aangeroepen. Deze rond het bedrag af naar stuivers
 */
-Const coin = 5; // regel bevat bug
+const coin = 5; // regel bevat bug
 
   function roundToCoin(event){
     let amountInput = input_amount.value; 
     let amount = Number(amountInput); 
     let rounded = Math.round(amount * 100 / coin) * coin/ 100
-    result_amount.txtContent = rounded; // regel bevat bug
+    result_amount.textContent = rounded; // regel bevat bug
   }
 
-  calc.addEventListener('click',roundToCoins); // regel bevat bug
+  calc.addEventListener('click',roundToCoin); // regel bevat bug
 </script>
 </html>
