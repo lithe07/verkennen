@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Base</h1>
+  <form id="form">
+    <p>
+      <label>hoeveel sperlers: </label>
+      <input type="text" name="aantal_toegang" id="aantal_toegang">
+    </p>
+    <p>
+        <label>hoeveel speleres in vip seat: </label>
+        <input type="text" name="speleres_vip_seat" id="speleres_vip_seat">
+      </p>
+      <p>
+        <label>Hoelang in vip seat in minuten: </label>
+        <input type="text" name="vip_seat_min" id="vip_seat_min">
+      </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>Result</h1>
+    <p><label>aantal sperlers: </label><span id="sperlers"></span></p>
+    <p><label>aantal vip seat: </label><span id="vip_seat"></span></p>
+    <p><label>aantal minuten vip seat: </label><span id="vip_min"></span></p>
+    <p><label>totaal te betalen: </label><span id="totaal_betalen"></span></p>
+  </div>
+
+  <script>
+    const PRIJS_TOEGANG = 12.45;
+    const PERIODE_VIP_SEAT = 5;
+    const PRIJS_VIP_SEAT = 0.65;
+
+    function submit(event){
+      detail.textContent = input.value;
+        
+      let a = aantal_toegang.value;
+
+
+      let aantal_toegang = Number(a);
+    //   let aantal_vip_seat = Number(speleres_vip_seat);
+    //   let  periode_vip_seat = Number(vip_seet_min);
+      console.log (a)
+
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
