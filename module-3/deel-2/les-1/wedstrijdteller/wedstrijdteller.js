@@ -75,6 +75,11 @@ function count(event){
         game.serving = 2;
         game.lastScored = 2;
     }
+
+    counterTeam1.disabled = true;
+    counterTeam2.disabled = true;
+    setTimeout(set_buttons_on, 1500);
+
     undoButton.disabled = false;
     updatescreen();
     updateSet();
@@ -104,7 +109,11 @@ function undoLastPoint(event){
     updatescreen();
 }
  
- 
+function set_buttons_on() {
+    counterTeam1.disabled = false;
+    counterTeam2.disabled = false;
+    alert ("Je mag weer kliken")
+}
  
  
 undoButton.disabled = true;
